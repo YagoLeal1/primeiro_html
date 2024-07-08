@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedor Web - Yago Leal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegação -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">Bem Vindo</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Desenvolvedor Web Jr</h2>
+            <p>Olá meu nome é Yago Leal, tenho 27 e sou estudante de engenharia de software na universidade cruzeiro do sul.</p>
+            <img src="yagoleal.jpg.jfif" width="30%" alt="Minha Foto">
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <p>HTML</p> <img src="html.png" width="30px">
+            <p>CSS</p> <img src="css.png" width="30px">
+            <p>JavaScript </p><img src="js.png" width="30px">
+            <p>React</p><img src="react.png" width="30px">
+            <p>jQUERY</p> <img src="jquery.png" width="30px">
+            <p>VUE,JS</p><img src="vue.png" width="30px">
+            <p>Para mais detalhes, confira meu <a href="curriculo.pdf">currículo</a>.</p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="section">
+        <div  class="container">
+            <h2>Contato</h2>
+            <form action="enviar.php" method="post">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem width </button> 
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Desenvolvedor Web. Todos os direitos reservados.</p>
+            <ul class="social-icons">
+                <li><a href="https://github.com/yagoleal1" target="_blank"><img src="github.png" width="50px" alt="GitHub"></a></li>
+                <li><a href="https://linkedin.com/in/yagoleal1" target="_blank"><img src="linkedin.png" width="50px" alt="LinkedIn"> </a></li>
+                <!-- Outras redes sociais -->
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
